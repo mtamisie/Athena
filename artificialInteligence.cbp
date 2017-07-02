@@ -42,13 +42,15 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="cb.bmp" />
-		<Unit filename="include/brainIF.h" />
-		<Unit filename="include/hearingSystemIF.h" />
-		<Unit filename="include/observer.h" />
-		<Unit filename="main.cpp" />
+		<Unit filename="include/brainIF.hpp" />
+		<Unit filename="include/hearingSystemIF.hpp" />
+		<Unit filename="include/observer.hpp" />
+		<Unit filename="include/soundSystemIF.hpp" />
 		<Unit filename="src/brainIF.cpp" />
 		<Unit filename="src/hearingSystemIF.cpp" />
+		<Unit filename="src/main.cpp" />
 		<Unit filename="src/observer.cpp" />
+		<Unit filename="src/soundSystemIF.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
