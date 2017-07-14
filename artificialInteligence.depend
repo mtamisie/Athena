@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1500036906 source:/home/pi/Desktop/git/Athena/src/brain/brainIF.cpp
+	"brainIF.hpp"
+
+1500038332 /home/pi/Desktop/git/Athena/src/brain/brainIF.hpp
+	"observer.hpp"
+	<string>
+	<iostream>
+
+1500043993 /home/pi/Desktop/git/Athena/src/observer/observer.hpp
+	<string>
+	<iostream>
+	<list>
+	<memory>
+
+1500036916 source:/home/pi/Desktop/git/Athena/src/hearingSystem/hearingSystemIF.cpp
+	"hearingSystemIF.hpp"
+
+1500040812 /home/pi/Desktop/git/Athena/src/hearingSystem/hearingSystemIF.hpp
+	"observer.hpp"
+	"vector"
+	"list"
+	<string>
+	<iostream>
+
+1500042678 source:/home/pi/Desktop/git/Athena/src/main.cpp
+	<iostream>
+	<stdlib.h>
+	"brainIF.hpp"
+	"hearingSystemIF.hpp"
+	"observer.hpp"
+	"soundSystemIF.hpp"
+	<list>
+	<string>
+
+1500038342 /home/pi/Desktop/git/Athena/src/soundSystem/soundSystemIF.hpp
+	<string>
+	<iostream>
+
+1500037000 source:/home/pi/Desktop/git/Athena/src/soundSystem/soundSystemIF.cpp
+	"soundSystemIF.hpp"
+
+1500036991 source:/home/pi/Desktop/git/Athena/src/observer/observer.cpp
+	"observer.hpp"
+
